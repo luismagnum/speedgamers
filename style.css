@@ -8,6 +8,11 @@
     list-style: none;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -37,10 +42,6 @@ h3{
     font-size: 22px;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .header{
     background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/fortnite-chapter-4-season-2-keyart-01-en-09mar23?$native$");
@@ -187,7 +188,7 @@ p{
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #cdd2d6;
+    color:#fff;
     padding: 15px;
     border: 2px solid #ffb608;
     margin-bottom: 20px;
@@ -208,6 +209,23 @@ p{
     background: #ffb608;
     box-shadow: 0 0 10px #ffb608, 0 0 40px #ffb608, 0 0 80px #ffb608 ;
 }
+
+.btn1{
+    display: inline-block;
+    background-color: #ffb608;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 18px;
+    color: #080808;
+    font-weight: 600;
+}
+
+.btn1:hover{
+    color: #080808;
+    background: #ffb608;
+    box-shadow: 0 0 10px #ffb608, 0 0 40px #ffb608, 0 0 80px #ffb608 ;
+}
+
 
 .game{
     display: flex;
@@ -276,12 +294,12 @@ p{
 .footer-img{
     display: flex;
     justify-content: center;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 .footer-img img{
     margin: 0 40px;
-    width: 150px;
+    width: 100px;
 }
 
 .deve{
