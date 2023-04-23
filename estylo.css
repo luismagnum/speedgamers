@@ -44,18 +44,20 @@ body{
 
 .enlace{
     text-align: center;
-    font-size: 26px;
+}
+
+.enlace a{
+    text-align: center;
+    font-size: 28px;
     font-weight: bold;
-    color:#ffb608;
+    color:#fff;
     text-decoration: none;
+    letter-spacing: 1.5px;
 }
 
-.enlace:hover{
-    color: #fff;
+.enlace:hover a{
+    color:#ffb608;
 }
-
-
-
 
 
 @media(max-width:600px){

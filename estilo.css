@@ -17,7 +17,19 @@
    background-size: cover;
 }
 
+.titulo{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb608;
+}
+
+.titulo h1{
+    text-align: center;
+}
+
 .lista h2{
+    text-align: center;
     line-height: 2;
     color:#ffb608;
 }
@@ -32,6 +44,7 @@
 
 .enlace{
     font-size: 26px;
+    font-weight: bold;
     color:#ffb608;
     text-decoration: none;
 }

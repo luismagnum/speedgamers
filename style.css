@@ -156,6 +156,7 @@ p{
     color: #080808;
     font-size: 20px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .about-in span{
@@ -168,6 +169,7 @@ p{
 
 .about-1 img{
     width: 100%;
+    margin-top: 10px;
     margin-bottom: 35px;
 }
 
@@ -304,6 +306,17 @@ p{
 
 .deve{
     color:#ffb608;
+}
+
+.deve h3:hover{
+    color: darkorange;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.buton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 
