@@ -22,16 +22,19 @@
     font-size: 18px;
     font-weight: bold;
     color: #ffb608;
+    margin-bottom: 30px;
 }
 
 .titulo h1{
     text-align: center;
+    margin-top: 0;
 }
 
 .lista h2{
     text-align: center;
     line-height: 2;
     color:#ffb608;
+    margin-bottom: 20px;
 }
 
 
@@ -43,12 +46,16 @@
 }
 
 .enlace{
+    text-align: center;
+}
+
+.enlace a{
     font-size: 26px;
     font-weight: bold;
     color:#ffb608;
     text-decoration: none;
 }
 
-.enlace:hover{
+.enlace:hover a{
     color: #fff;
 }

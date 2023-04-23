@@ -1,6 +1,6 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("https://www.zonared.com/images/juegos/portada/0000/677-h.jpg");
+    background-image: url("https://img2.wallspic.com/crops/5/0/1/8/2/128105/128105-combinado-1920x1080.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,6 +44,7 @@ body{
 
 .enlace{
     text-align: center;
+    margin-bottom: 22px;
 }
 
 .enlace a{
@@ -73,7 +74,8 @@ body{
         margin-left: 40%;
         display: inline;
         font-size: 22px;
-        color:#fff;
+        font-weight: bold;
+        color:#ffb608;
     }
 
     .table, .table tbody, .table tr, .table td{
