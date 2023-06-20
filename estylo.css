@@ -3,6 +3,7 @@ body{
     background-image: url("https://img2.wallspic.com/crops/5/0/1/8/2/128105/128105-combinado-1920x1080.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 .container{
