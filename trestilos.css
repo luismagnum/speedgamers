@@ -28,6 +28,10 @@ h1{
     gap: 60px;
 }
 
+.service img{
+    background-size: cover;
+}
+
 span{
     color:white;
     display: flex;
@@ -68,6 +72,7 @@ span{
     .service img{
         width: 150px;
         height: 200px;
+        margin: 5px;
         background-size: cover;
     }
 }
