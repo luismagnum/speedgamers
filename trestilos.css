@@ -24,14 +24,16 @@ h1{
 .service{
     padding: 100px 0;
     display: flex;
-    justify-content: space-between;
+    flex-wrap:wrap;
+    gap: 60px;
 }
 
 span{
-    color: white;
+    color:white;
     display: flex;
     text-align: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 .enlace{
